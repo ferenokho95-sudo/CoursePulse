@@ -1,0 +1,233 @@
+<!doctype html><html lang="ru"><meta charset="utf-8"><title>CoursePulse</title>
+    <style>body{font:15px system-ui;color:#22334b;margin:35px;background:#f4f6fa}section{background:white;padding:24px;border-radius:12px;margin:18px 0;overflow:auto}table{border-collapse:collapse;white-space:nowrap}th,td{padding:9px 12px;border-bottom:1px solid #ddd;text-align:left}th{background:#233e60;color:white}h1{margin-bottom:5px}</style>
+    <h1>CoursePulse</h1><p>Состояние на 2026-10-29T18:00:00+03:00. Отчёт обновляется при повторном запуске.</p>
+    <section><h2>Сводка группы</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>student_id</th>
+      <th>name</th>
+      <th>group</th>
+      <th>active</th>
+      <th>expected</th>
+      <th>attended</th>
+      <th>absent</th>
+      <th>excused</th>
+      <th>unknown</th>
+      <th>attendance_rate</th>
+      <th>due</th>
+      <th>accepted</th>
+      <th>overdue</th>
+      <th>revision</th>
+      <th>waiting_review</th>
+      <th>completion_rate</th>
+      <th>missing_reasons</th>
+      <th>priority</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>S001</td>
+      <td>Анна Демонстрационная</td>
+      <td>AI-01</td>
+      <td>True</td>
+      <td>4</td>
+      <td>4</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1.0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1.0</td>
+      <td>0</td>
+      <td>не требуется</td>
+    </tr>
+    <tr>
+      <td>S002</td>
+      <td>Борис Примеров</td>
+      <td>AI-01</td>
+      <td>True</td>
+      <td>4</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.5</td>
+      <td>2</td>
+      <td>0</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>1</td>
+      <td>высокий</td>
+    </tr>
+    <tr>
+      <td>S003</td>
+      <td>Вера Учебная</td>
+      <td>AI-01</td>
+      <td>True</td>
+      <td>4</td>
+      <td>3</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1.0</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0.5</td>
+      <td>0</td>
+      <td>обычный</td>
+    </tr>
+    <tr>
+      <td>S004</td>
+      <td>Глеб Тестовый</td>
+      <td>AI-01</td>
+      <td>True</td>
+      <td>4</td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>нет данных</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0.5</td>
+      <td>0</td>
+      <td>обычный</td>
+    </tr>
+    <tr>
+      <td>S005</td>
+      <td>Дарья Примерная</td>
+      <td>AI-01</td>
+      <td>True</td>
+      <td>4</td>
+      <td>4</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1.0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1.0</td>
+      <td>0</td>
+      <td>обычный</td>
+    </tr>
+    <tr>
+      <td>S006</td>
+      <td>Егор Учебный</td>
+      <td>AI-01</td>
+      <td>True</td>
+      <td>4</td>
+      <td>4</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1.0</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1.0</td>
+      <td>0</td>
+      <td>обычный</td>
+    </tr>
+  </tbody>
+</table></section>
+    <section><h2>Связаться со слушателями</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>student_id</th>
+      <th>name</th>
+      <th>group</th>
+      <th>contact</th>
+      <th>priority</th>
+      <th>reason</th>
+      <th>action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>S002</td>
+      <td>Борис Примеров</td>
+      <td>AI-01</td>
+      <td>student2@example.com</td>
+      <td>высокий</td>
+      <td>Просрочено работ: 2; Пропусков: 2; Дедлайн в ближайшие 48 часов: 1</td>
+      <td>Уточнить сложности и согласовать срок сдачи; Уточнить причины пропусков и предложить план возвращения; Напомнить о дедлайне и доступных материалах</td>
+    </tr>
+    <tr>
+      <td>S003</td>
+      <td>Вера Учебная</td>
+      <td>AI-01</td>
+      <td>student3@example.com</td>
+      <td>обычный</td>
+      <td>Работ на доработке: 1; Дедлайн в ближайшие 48 часов: 1</td>
+      <td>Уточнить, понятна ли обратная связь преподавателя; Напомнить о дедлайне и доступных материалах</td>
+    </tr>
+    <tr>
+      <td>S004</td>
+      <td>Глеб Тестовый</td>
+      <td>AI-01</td>
+      <td>student4@example.com</td>
+      <td>обычный</td>
+      <td>Дедлайн в ближайшие 48 часов: 1</td>
+      <td>Напомнить о дедлайне и доступных материалах</td>
+    </tr>
+    <tr>
+      <td>S005</td>
+      <td>Дарья Примерная</td>
+      <td>AI-01</td>
+      <td>student5@example.com</td>
+      <td>обычный</td>
+      <td>Дедлайн в ближайшие 48 часов: 1</td>
+      <td>Напомнить о дедлайне и доступных материалах</td>
+    </tr>
+    <tr>
+      <td>S006</td>
+      <td>Егор Учебный</td>
+      <td>AI-01</td>
+      <td>student6@example.com</td>
+      <td>обычный</td>
+      <td>Дедлайн в ближайшие 48 часов: 1</td>
+      <td>Напомнить о дедлайне и доступных материалах</td>
+    </tr>
+  </tbody>
+</table></section>
+    <section><h2>Уточнить данные у куратора</h2><p>Неизвестные отметки не считаются пропусками. Уточните также причины отсутствия.</p><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>student_id</th>
+      <th>name</th>
+      <th>unknown</th>
+      <th>missing_reasons</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>S002</td>
+      <td>Борис Примеров</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>S004</td>
+      <td>Глеб Тестовый</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table></section></html>

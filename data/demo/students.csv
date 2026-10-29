@@ -1,0 +1,7 @@
+﻿student_id,name,group,contact,enrolled_at,ended_at
+S001,Анна Демонстрационная,AI-01,student1@example.com,2026-10-01T00:00:00+03:00,
+S002,Борис Примеров,AI-01,student2@example.com,2026-10-01T00:00:00+03:00,
+S003,Вера Учебная,AI-01,student3@example.com,2026-10-01T00:00:00+03:00,
+S004,Глеб Тестовый,AI-01,student4@example.com,2026-10-01T00:00:00+03:00,
+S005,Дарья Примерная,AI-01,student5@example.com,2026-10-01T00:00:00+03:00,
+S006,Егор Учебный,AI-01,student6@example.com,2026-10-01T00:00:00+03:00,

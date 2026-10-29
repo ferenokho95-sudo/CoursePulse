@@ -1,0 +1,7 @@
+﻿student_id,name,group,active,expected,attended,absent,excused,unknown,attendance_rate,due,accepted,overdue,revision,waiting_review,completion_rate,missing_reasons,priority
+S001,Анна Демонстрационная,AI-01,True,4,4,0,0,0,1.0,2,2,0,0,0,1.0,0,не требуется
+S002,Борис Примеров,AI-01,True,4,2,2,0,0,0.5,2,0,2,0,0,0.0,1,высокий
+S003,Вера Учебная,AI-01,True,4,3,0,1,0,1.0,2,1,0,1,0,0.5,0,обычный
+S004,Глеб Тестовый,AI-01,True,4,3,0,0,1,,2,1,0,0,1,0.5,0,обычный
+S005,Дарья Примерная,AI-01,True,4,4,0,0,0,1.0,2,2,0,0,0,1.0,0,обычный
+S006,Егор Учебный,AI-01,True,4,4,0,0,0,1.0,2,2,0,0,0,1.0,0,обычный
